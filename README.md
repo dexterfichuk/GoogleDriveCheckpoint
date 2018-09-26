@@ -27,7 +27,7 @@ drive = GoogleDrive(gauth)
 
 Then download it locally in your notebook.
 ```python
-!curl  -O
+!curl https://raw.githubusercontent.com/dexterfichuk/GoogleDriveCheckpoint/master/google_drive_checkpoint.py -O
 ```
 
 Then you can create the checkpointer, and use it as a callback!
